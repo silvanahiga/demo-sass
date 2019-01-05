@@ -3,39 +3,3 @@
 body {
     background-color: $color-fondo;
 }
-
-.breadcrumb {
-    background: lighten($color-fondo, 10%);
-    ul {
-        li {
-            display: inline-block;
-            margin: 3px;
-            &:hover {
-                color: red;
-            }
-        }
-    }
-}
-
-.titulo-container {
-    h2 {
-        text-align: center;
-        font-size: $titulo-size;
-        color: $titulo-color;
-    }
-}
-
-.img-container {
-    .icon-container {
-        display: flex;
-        div{
-            width: $tamanio-foto;
-            height: $tamanio-foto;
-            margin: $margen-foto;
-            border: 1px solid $borde-foto;
-            line-height: $tamanio-foto;
-            text-align: center;
-            font-size: 5em;
-        }
-    }
-}

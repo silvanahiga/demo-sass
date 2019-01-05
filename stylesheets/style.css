@@ -2,39 +2,3 @@
 body {
   background-color: #ccc;
 }
-
-/* line 7, ../sass/style.scss */
-.breadcrumb {
-  background: #e6e6e6;
-}
-/* line 10, ../sass/style.scss */
-.breadcrumb ul li {
-  display: inline-block;
-  margin: 3px;
-}
-/* line 13, ../sass/style.scss */
-.breadcrumb ul li:hover {
-  color: red;
-}
-
-/* line 21, ../sass/style.scss */
-.titulo-container h2 {
-  text-align: center;
-  font-size: 2em;
-  color: black;
-}
-
-/* line 29, ../sass/style.scss */
-.img-container .icon-container {
-  display: flex;
-}
-/* line 31, ../sass/style.scss */
-.img-container .icon-container div {
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-  border: 1px solid #999;
-  line-height: 250px;
-  text-align: center;
-  font-size: 5em;
-}
