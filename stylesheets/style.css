@@ -1,0 +1,33 @@
+/* line 3, ../sass/style.scss */
+body {
+  background-color: #ccc;
+}
+
+/* line 9, ../sass/style.scss */
+.breadcrumb ul li {
+  display: inline-block;
+  margin: 3px;
+}
+/* line 12, ../sass/style.scss */
+.breadcrumb ul li:hover {
+  color: red;
+}
+
+/* line 20, ../sass/style.scss */
+.titulo-container h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #3b447d;
+}
+
+/* line 28, ../sass/style.scss */
+.img-container .icon-container {
+  display: flex;
+}
+/* line 30, ../sass/style.scss */
+.img-container .icon-container div {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border: 1px solid #999;
+}
