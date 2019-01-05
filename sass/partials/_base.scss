@@ -1,5 +1,6 @@
 $color-fondo: #ccc;
-$titulo-color: #3b447d;
+$color-texto: invert($color-fondo);
+$titulo-color: darken($color-texto, 20%);
 $titulo-size: 2em;
 
 $tamanio-foto: 250px;

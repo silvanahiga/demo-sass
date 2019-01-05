@@ -5,6 +5,7 @@ body {
 }
 
 .breadcrumb {
+    background: lighten($color-fondo, 10%);
     ul {
         li {
             display: inline-block;
@@ -32,6 +33,9 @@ body {
             height: $tamanio-foto;
             margin: $margen-foto;
             border: 1px solid $borde-foto;
+            line-height: $tamanio-foto;
+            text-align: center;
+            font-size: 5em;
         }
     }
 }
